@@ -8,6 +8,10 @@ public class Hello {
         Student alice = new Student("Alice", 56789, 4.0);
         Student bob = new Student("Robert", 54321, 2.9);
         Student john = new Student("Muhammedjohn", 12345, 3.5);
+        
+        alice.print();
+        bob.print();
+        john.print();        
     }
 }
 
